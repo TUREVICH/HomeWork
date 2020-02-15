@@ -1,7 +1,7 @@
 package com.company;
 
 public class Task6 {
-    public void job6() {
+    public void task6() {
         int day = 30;
         int month = 11;
         int year = 2020;

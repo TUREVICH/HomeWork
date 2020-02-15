@@ -1,7 +1,7 @@
 package com.company;
 
 public class Task2 {
-    public void job2() {
+    public void task2() {
         int s = 3700;
         int sec = s % 60;
         int m = (s - sec) / 60;

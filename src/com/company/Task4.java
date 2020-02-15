@@ -1,7 +1,7 @@
 package com.company;
 
 public class Task4 {
-    public void job4() {
+    public void task4() {
         int a = 2;
         int b = 3;
         int r = 5;

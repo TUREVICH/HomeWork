@@ -1,7 +1,7 @@
 package com.company;
 
 public class Task5 {
-    public void job5() {
+    public void task5() {
         int cash = 221;
         int ost = cash % 10;
         if (cash > 4 && cash < 20) {
