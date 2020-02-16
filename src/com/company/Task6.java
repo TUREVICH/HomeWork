@@ -2,17 +2,23 @@ package com.company;
 
 public class Task6 {
     public void task6() {
-        int day = 30;
-        int month = 11;
+        int day = 28;
+        int month = 2;
         int year = 2020;
-        int vy = year % 10;
+        int vy;
         int dayMax;
 
-        if (vy == 4){
+        for ( vy = 0; vy <= year ;vy += 4 ){
+
+        }
+
+        if (year == vy){
             dayMax = 29;
         } else {
             dayMax = 28;
         }
+
+
 
         if (month == 12 && day == 31) {
             day = 1;
