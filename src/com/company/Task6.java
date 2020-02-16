@@ -5,14 +5,10 @@ public class Task6 {
         int day = 28;
         int month = 2;
         int year = 2020;
-        int vy;
         int dayMax;
 
-        for ( vy = 0; vy <= year ;vy += 4 ){
 
-        }
-
-        if (year == vy){
+        if (year % 4 ==0){
             dayMax = 29;
         } else {
             dayMax = 28;
