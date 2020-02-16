@@ -8,7 +8,7 @@ public class Task6 {
         int dayMax;
 
 
-        if (year % 4 ==0){
+        if (year % 4 == 0){
             dayMax = 29;
         } else {
             dayMax = 28;
