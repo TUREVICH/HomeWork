@@ -9,7 +9,13 @@ public class Task6 {
 
 
         if (year % 4 == 0){
+
+            if (year == 1900){
+                dayMax = 28;
+            }else{
             dayMax = 29;
+            }
+
         } else {
             dayMax = 28;
         }
