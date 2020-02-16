@@ -10,7 +10,8 @@ public class Task7 {
     boolean g;
 
     public void task7() {
-        if (a + d <= e || a + d <= f || a + c <= e || a + c <= f || b + d <= e || b + d <= f || b + c <= e || b + c <= f){
+
+        if ((((a + c) <= e) && (b <= f && d <= f)) || (((b + d) <= f) && (a <= e && c <= e)) || (((b + c) <= e) && (a <= f && d <= f)) || (((a + d) <= e) && (b <= f && c <= f)) || (((a + d) <= f) && (b <= e && c <= e)) || (((b + c) <= f) && (a <= e && d <= e)) || (((a + c) <= f) && (b <= e && d <= e)) || (((b + d) <= e) && (a <= f && c <= f))){
             g = true;
         }else {
             g = false;
