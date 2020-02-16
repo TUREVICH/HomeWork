@@ -4,7 +4,7 @@ public class Task6 {
     public void task6() {
         int day = 28;
         int month = 2;
-        int year = 2020;
+        int year = 1900;
         int dayMax;
 
 
