@@ -5,6 +5,14 @@ public class Task6 {
         int day = 30;
         int month = 11;
         int year = 2020;
+        int vy = year % 10;
+        int dayMax;
+
+        if (vy == 4){
+            dayMax = 29;
+        } else {
+            dayMax = 28;
+        }
 
         if (month == 12 && day == 31) {
             day = 1;
@@ -16,7 +24,7 @@ public class Task6 {
         } else if ((month == 4 || month == 6 || month == 9 || month == 11) && (day == 30)) {
             day = 1;
             month++;
-        } else if (month == 2 && day == 29) {
+        } else if ( month == 2 && day == dayMax) {
             day = 1;
             month++;
         } else {
@@ -25,7 +33,7 @@ public class Task6 {
                 System.out.println("Exception");
             } else if ((month == 4 || month == 6 || month == 9 || month == 11) && (day > 30)) {
                 System.out.println("Exception");
-            } else if (month == 2 && day > 29){
+            } else if (month == 2 && day > dayMax){
                 System.out.println("Exception");
             }else {
                 day++;
