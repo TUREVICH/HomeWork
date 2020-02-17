@@ -5,18 +5,12 @@ public class Task6 {
     public void task6() {
         int day = 28;
         int month = 2;
-        int year = 2020;
+        int year = 1900;
         int dayMax;
 
 
-        if (year % 4 == 0){
-
-            if (year == 1900){
-                dayMax = 28;
-            }else{
+        if (year % 4 == 0 || year % 400 == 0){
                 dayMax = 29;
-            }
-
         } else {
             dayMax = 28;
         }
