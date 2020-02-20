@@ -18,13 +18,13 @@ public class Main {
 
         golf.setName("Golf");
         golf.setReleaseDate(2002);
-        golf.tank = 60;
-        golf.consumption = 5.5f;
+        golf.setTank(60);
+        golf.setConsumption(5.5f);
 
         transporter.setName("Transporter");
         transporter.setReleaseDate(2013);
-        transporter.tank = 80;
-        transporter.consumption = 8.6f;
+        transporter.setTank(80);
+        transporter.setConsumption(8.6f);
 
         golf.ride();
         System.out.println(golf.getName() + " will pass :" + golf.getDistance() + " km.");
