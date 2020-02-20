@@ -1,6 +1,6 @@
 package com.company;
 
-public abstract class Cars {
+public class Cars {
 
     String name;
     int releaseDate;

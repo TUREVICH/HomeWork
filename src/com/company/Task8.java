@@ -5,10 +5,14 @@ public class Task8 {
         int s = 5;
         int factorial = 1;
         int i = 0;
-        do {
+
+        i++;
+        factorial = factorial * i;
+
+        while (i < s && i > 0){
             i++;
             factorial = factorial * i;
-        } while (i < s && i > 0);
+        }
 
         System.out.println("factorial = " + factorial);
     }
