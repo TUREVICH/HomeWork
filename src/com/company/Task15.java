@@ -24,13 +24,14 @@ public class Task15 {
         System.out.println("Max : " + array[max] + "\n"+ "Min : " + array[min]);
 
         if (min < max) {
-            for (int i = min + 1; i < max; ++i)
+            for (int i = min + 1; i < max; ++i) {
                 sum += array[i];
+            }
         } else if (min > max) {
-            for (int i = max + 1; i < min; ++i)
+            for (int i = max + 1; i < min; ++i) {
                 sum += array[i];
+            }
         }
-
         System.out.println("Sum : " + sum);
     }
 
