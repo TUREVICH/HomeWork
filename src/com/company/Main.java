@@ -9,5 +9,10 @@ public class Main {
         Task15 task15 = new Task15();
         task15.task15();
 
+        Task16 task16 = new Task16();
+        task16.task16();
+
+        Task17 task17 = new Task17();
+        task17.task17();
     }
 }

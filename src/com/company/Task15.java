@@ -31,7 +31,7 @@ public class Task15 {
                 sum += array[i];
         }
 
-        System.out.println(sum);
+        System.out.println("Sum : " + sum);
     }
 
 }
