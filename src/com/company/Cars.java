@@ -3,14 +3,12 @@ package com.company;
 public class Cars {
 
     private String name;
-    private int releaseDate;
+    private String releaseDate;
     private int tank;
     private float consumption;
     private Float distance;
 
-    public void setTank(int tank) {
-        this.tank = tank;
-    }
+    public void setTank(int tank) { this.tank = tank; }
 
     public void setConsumption(float consumption) {
         this.consumption = consumption;
@@ -20,12 +18,13 @@ public class Cars {
         this.name = name;
     }
 
-    public void setReleaseDate(int releaseDate) {
+    public void setReleaseDate(String releaseDate) {
         this.releaseDate = releaseDate;
     }
 
     public int getReleaseDate() {
-        return releaseDate;
+        int releaseDateInt = Integer.parseInt(releaseDate);
+        return releaseDateInt;
     }
 
     public String getName() {
@@ -36,7 +35,7 @@ public class Cars {
         return distance;
     }
 
-    public void ride(){
+    public void distanceCalculation(){
         distance = (tank / consumption) * 100;
     }
 
