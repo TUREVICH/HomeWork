@@ -2,7 +2,7 @@ package com.company;
 
 public class Task15 {
 
-    public void task15() {
+    public static void main(String[] args) {
         int[] array = new int[7];
         int max = 0;
         int min = 0;

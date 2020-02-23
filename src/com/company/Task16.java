@@ -2,7 +2,7 @@ package com.company;
 
 public class Task16 {
 
-    public void task16(){
+    public static void main(String[] args) {
         int[] array = new int[7];
 
         for (int i = 0; i < array.length; i++) {
