@@ -3,19 +3,14 @@ package com.company;
 public class Task18 {
 
     public static void main(String[] args) {
-        char[] chars = {'.', ',', '-', ':', ';', '?', '!', '@', '#', '$', '%', '^', '&', '*', '_', '<', '>', '/', '|', '~', '`', '=', '+', '(', ')', '{', '}', '[', ']', '"', '\\', '\'', '\"'};
-        int sum = 0;
-        String string = "!#$%&()*+,-./:;<=>?@[]^_`{|}~";
-
-        for (int i = 0; i < string.length(); i++) {
-            for (int j = 0; j < chars.length; j++) {
-                if (string.charAt(i) == chars[j]) {
-                    sum++;
-                    break;
-                }
+        String str = "!#$%&()*+,-./:;<=>?@[]^_`{|}~ ";
+        int sim = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (!(Character.isWhitespace(str.charAt(i))) && !(Character.isLetterOrDigit(str.charAt(i)))) {
+                sim++;
             }
         }
-        System.out.println(sum);
+        System.out.println("Number of signs : " + sim);
     }
 
 }
